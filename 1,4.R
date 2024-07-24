@@ -7,4 +7,3 @@ median_smooth <- tapply(data, bin_indices, median)
 median_smooth
 min_max_smooth <- tapply(data, bin_indices, function(x) c(min(x), max(x)))
 print("min_max_smooth")
-
